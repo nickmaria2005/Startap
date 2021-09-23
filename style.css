@@ -1,0 +1,185 @@
+.menu {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0; 
+    opacity: 0.8; 
+}
+.menu a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    font-weight: 100;
+    margin: 20px 40px;
+}
+.menu a:hover {
+    background-color: #ccc;
+}
+.header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 200px;
+    background-image: url(img/polygons.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 60px;
+    background-attachment: fixed;
+}
+.header button {
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 12px 24px;
+    outline: none;
+}
+.header button:hover {
+    background-color: #ccc; 
+}
+.about img {
+    width: 400px;
+    float: right;
+}
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 40px 0;
+}
+.about h2 {
+    text-align: center;
+}
+.human {
+    display: inline-block;
+    width: 20%;
+     margin: 20px 10px;
+     padding: 20px;
+     border: 2px grey solid;
+    box-shadow: 0 2px 5px  gray;
+    text-align: left;
+}
+.human img {
+    width: 100%;
+}
+.team {
+    text-align: center;
+}
+.op {
+    opacity: 0.6;
+}
+.human h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.human a {
+    background-color: #055b73;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+}
+.tariff li {
+    list-style-type: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 16px 0;
+}
+.tariff ul {
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    padding: 0;
+    vertical-align: middle;
+    margin: 10px;
+    min-width: 150px;
+}
+.tariff {
+    background-color: grey;
+    text-align: center;
+    padding: 30px 0;
+}
+.white {
+    color: rgb(255, 255, 255);
+    margin-top: 10px; 
+}
+.tariff-name {
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    padding: 30px 0 !important;
+    font-size: 24px;
+}
+.best {
+    background-color: #055b73;
+    padding: 50px 0 !important;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.period {
+    opacity: 0.4;
+}
+.tariff li:last-child {
+    background-color: #f1f1f1;
+    padding: 24px 0;
+}
+.tariff a,.contact button {
+    padding: 12px 24px;
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contact {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+}
+.address {
+    background-image: url(img/address.png);
+}
+.phone {
+    background-image: url(img/phone.png);
+}
+.mail {
+    background-image: url(img/mail.png); 
+}
+.inform {
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+    background-size: 18px 18px;
+    margin-left: 5%;
+}
+.footer {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+input {
+    display: inline-block;
+    width: 90%;
+    padding: 8px;
+    margin: 10px;
+}
+.contact button:hover {
+    color: #000;
+    background-color: white;
+}
+@media (max-width:575px) {
+    .menu {
+        position: static;
+    }
+    .header {
+        margin-top: 0;
+        padding: 100px 10px;
+    }
+    .human {
+        width: 80%;
+    }
+    .tariff ul {
+        width: 80%;
+    }
+} 
